@@ -6,6 +6,16 @@
             "platform.cpu-stats-enabled": true,
             "platform.thread-stats-enabled": true,
             "platform.sys-stats-enabled": true
+        },
+        "RDA5981X": {
+            "target.bootloader_supported": true
+        },
+        "UNO_91H": {
+            "target.features_add": ["BOOTLOADER"],
+            "target.device_name": "RDA5981X",
+            "target.bootloader_img": "./bootloader/mbed-bootloader_uno91h.bin",
+            "target.app_offset": "0x8400",
+            "target.header_offset": "0x8000"
         }
     }
 }
